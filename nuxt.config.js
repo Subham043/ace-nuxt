@@ -32,7 +32,8 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/stylelint
     // '@nuxtjs/stylelint-module',
-    '@nuxtjs/fontawesome'
+    '@nuxtjs/fontawesome',
+    '@nuxtjs/google-fonts'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -72,6 +73,23 @@ export default {
       solid: true,
       brands: true,
       regular: true,
+    }
+  },
+
+  googleFonts: {
+    display: 'swap',
+    families: {
+      Roboto: true,
+      'Josefin+Sans': true,
+      Lato: [100, 300],
+      Raleway: {
+        wght: [100, 400],
+        ital: [100]
+      },
+      'Quattrocento Sans': {
+        wght: [400, 700],
+        ital: [400, 700],
+      },
     }
   }
 
