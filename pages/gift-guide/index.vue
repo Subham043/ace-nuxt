@@ -286,6 +286,8 @@
 
 
 <script>
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 export default {
   name: 'GiftGuidePage',
   data() {
@@ -322,6 +324,9 @@ export default {
         ],
       },
     }
+  },
+   mounted() {
+    AOS.init()
   },
   methods: {
     next() {

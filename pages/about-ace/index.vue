@@ -413,6 +413,8 @@
 
 
 <script>
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 export default {
   name: 'AboutAcePage',
   data() {
@@ -449,6 +451,9 @@ export default {
         ],
       },
     }
+  },
+  mounted() {
+    AOS.init()
   },
   
 }

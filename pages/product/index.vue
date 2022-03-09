@@ -361,6 +361,8 @@
 
 
 <script>
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 export default {
   name: 'ProductPage',
   data() {
@@ -406,6 +408,9 @@ export default {
         ],
       },
     }
+  },
+   mounted() {
+    AOS.init()
   },
 }
 </script>
