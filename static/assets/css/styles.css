@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-body{
-    font-family: 'Quattrocento Sans', sans-serif !important;   
+
+html, body {
+    font-family: 'Quattrocento Sans', sans-serif !important;  
+  }
+  
+#__nuxt {
+    font-family: 'Quattrocento Sans', sans-serif !important;  
 }
 
 .App,
 .page-wrapper {
     overflow: auto;
-    font-family: 'Quattrocento Sans', sans-serif;
+    font-family: 'Quattrocento Sans', sans-serif !important;
 }
 
 .mobileMenu {

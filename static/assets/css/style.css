@@ -11,6 +11,20 @@ body{
     font-family: 'Quattrocento Sans', sans-serif !important;
 }
 
+html, body {
+    font-family: 'Quattrocento Sans', sans-serif !important;  
+  }
+  
+#__nuxt {
+    font-family: 'Quattrocento Sans', sans-serif !important;  
+}
+
+.App,
+.page-wrapper {
+    overflow: auto;
+    font-family: 'Quattrocento Sans', sans-serif !important;
+}
+
 
 
 .banner{
@@ -715,3 +729,8 @@ margin-bottom: 50px;
     position: relative;
 }
 
+
+svg {
+    display: inline-block;
+    height: 1em;
+}
